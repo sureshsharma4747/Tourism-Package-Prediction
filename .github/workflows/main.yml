@@ -29,4 +29,4 @@ jobs:
       - name: Check Python files
         run: |
           python -m py_compile app.py
-          python -m py_compile train.py
+          python -m py_compile src/train.py
